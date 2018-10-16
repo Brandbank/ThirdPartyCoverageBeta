@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ThirdPartyCoverageReport" version="1.0.0" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.brandbank.com/schemas/ThirdPartyCoverage/2009/10" xmlns="http://www.brandbank.com/schemas/ThirdPartyCoverage/2009/10">
+    <xs:element name="RetailerProducts" type="RetailerProductsType"/>
+    <xs:complexType name="RetailerProductsType">
+        <xs:sequence>
+          <xs:element type="RetailerType" name="Retailer" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+      </xs:complexType>
+    <xs:complexType name="RetailerType">
+        <xs:sequence>
+            <xs:element name="Products" type="ProductsType" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>    
+        <xs:attribute name="name" type="MandatoryString" />
+    </xs:complexType>
+    <xs:complexType name="ProductsType">
+        <xs:sequence>
+            <xs:element name="Product" type="ProductType" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ProductType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="retailerUID" type="MandatoryString" />
+                <xs:attribute name="sourceId" type="MandatoryString" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:simpleType name="MandatoryString">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

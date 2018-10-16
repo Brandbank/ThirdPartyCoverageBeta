@@ -1,0 +1,90 @@
+<Retailer description="RETAILER1" 
+    xmlns="http://www.brandbank.com/schemas/RetailerGtinMap/2009/10">
+    <Products>
+        <Product retailerUID="R1-000001" sourceId="MYID-1">
+            <GTINs>
+                <GTIN>0000050226320</GTIN>
+            </GTINs>
+        </Product>
+        <Product retailerUID="R1-000002" sourceId="MYID-2">
+            <GTINs>
+                <GTIN>5011376002241</GTIN>
+            </GTINs>
+        </Product>
+        <Product retailerUID="R1-000453" sourceId="MYID-5">
+            <GTINs>
+                <GTIN>5011376001244</GTIN>
+            </GTINs>
+        </Product>
+        <Product retailerUID="R1-000465" sourceId="MYID-234">
+            <GTINs>
+                <GTIN>0000027404546</GTIN>
+            </GTINs>
+        </Product>
+        <Product retailerUID="R1-101463" sourceId="MYID-4976">
+            <GTINs>
+                <GTIN>0000027462089</GTIN>
+            </GTINs>
+        </Product>
+    </Products>
+</Retailer>
+<Retailer description="Retailer2" 
+    xmlns="http://www.brandbank.com/schemas/RetailerGtinMap/2009/10">
+    <Products>
+        <Product retailerUID="R2-A10001" sourceId="MYID-1">
+            <GTINs>
+                <GTIN>0000050226320</GTIN>
+            </GTINs>
+        </Product>
+        <Product retailerUID="R2-A4003" sourceId="MYID-2">
+            <GTINs>
+                <GTIN>5011376002241</GTIN>
+            </GTINs>
+        </Product>
+        <Product retailerUID="R2-AM2ID4533" sourceId="MYID-5">
+            <GTINs>
+                <GTIN>5011376001244</GTIN>
+            </GTINs>
+        </Product>
+        <Product retailerUID="R2-CH5ID1231" sourceId="MYID-280">
+            <GTINs>
+                <GTIN>0000027504556</GTIN>
+            </GTINs>
+        </Product>
+        <Product retailerUID="R2-B33433" sourceId="MYID-5444">
+            <GTINs>
+                <GTIN>0000027462342</GTIN>
+            </GTINs>
+        </Product>
+    </Products>
+</Retailer>
+<Retailer description="retailer3" 
+    xmlns="http://www.brandbank.com/schemas/RetailerGtinMap/2009/10">
+    <Products>
+        <Product retailerUID="175CA22E-FD0C-48BC-B10B-5AEA5A3F8771" sourceId="MYID-1">
+            <GTINs>
+                <GTIN>0000050226320</GTIN>
+            </GTINs>
+        </Product>
+        <Product retailerUID="0EE93DBC-73CB-4018-BEB3-DE4E6448797F" sourceId="MYID-2">
+            <GTINs>
+                <GTIN>5011376002241</GTIN>
+            </GTINs>
+        </Product>
+        <Product retailerUID="5DA1FD51-D0BC-4332-B81E-AA88B070D0B7" sourceId="MYID-280">
+            <GTINs>
+                <GTIN>0000027504556</GTIN>
+            </GTINs>
+        </Product>
+        <Product retailerUID="4E3F1433-8025-4A71-A70B-4C85EF58EBD3" sourceId="MYID-280">
+            <GTINs>
+                <GTIN>0000027462089</GTIN>
+            </GTINs>
+        </Product>
+        <Product retailerUID="D7AF6CD9-FD0B-4594-9BE8-52929B279E7B" sourceId="MYID-42">
+            <GTINs>
+                <GTIN>5075548384562</GTIN>
+            </GTINs>
+        </Product>
+    </Products>
+</Retailer>

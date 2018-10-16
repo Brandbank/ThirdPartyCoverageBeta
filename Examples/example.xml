@@ -1,0 +1,29 @@
+<RetailerProducts xmlns="http://www.brandbank.com/schemas/ThirdPartyCoverage/2009/10">
+    <Retailer name="RETAILER1">
+        <Products>
+            <Product retailerUID="R1-000001" sourceId="MYID-1">ProductDescription 1 </Product>
+            <Product retailerUID="R1-000002" sourceId="MYID-2">ProductDescription 2</Product>
+            <Product retailerUID="R1-000453" sourceId="MYID-5">ProductDescription X</Product>
+            <Product retailerUID="R1-000465" sourceId="MYID-234">ProductDescription Y</Product>
+            <Product retailerUID="R1-101463" sourceId="MYID-4976">ProductDescription Z</Product>
+        </Products>
+    </Retailer>
+    <Retailer name="Retailer2">
+        <Products>
+            <Product retailerUID="R2-A10001" sourceId="MYID-1">ProductDescription 1 </Product>
+            <Product retailerUID="R2-A4003" sourceId="MYID-2">ProductDescription 2</Product>
+            <Product retailerUID="R2-AM2ID4533" sourceId="MYID-5">ProductDescription X</Product>
+            <Product retailerUID="R2-CH5ID1231" sourceId="MYID-280">ProductDescription F</Product>
+            <Product retailerUID="R2-B33433" sourceId="MYID-5444">ProductDescription G</Product>
+        </Products>
+    </Retailer>
+    <Retailer name="retailer3">
+        <Products>
+            <Product retailerUID="R1-000001" sourceId="MYID-1">ProductDescription 1 </Product>
+            <Product retailerUID="R1-000002" sourceId="MYID-2">ProductDescription 2</Product>
+            <Product retailerUID="R1-000453" sourceId="MYID-5">ProductDescription X</Product>
+            <Product retailerUID="R1-000465" sourceId="MYID-234">ProductDescription Y</Product>
+            <Product retailerUID="R1-101463" sourceId="MYID-4976">ProductDescription Z</Product>
+        </Products>
+    </Retailer>
+</RetailerProducts>
